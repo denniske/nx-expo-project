@@ -6,7 +6,7 @@ import { Text, View } from '../components/Themed';
 import {myTodoList} from "@nex/data";
 
 export default function TabOneScreen() {
-  const temp = "123" + myTodoList.length;
+  const temp = "len:" + myTodoList.length;
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tab One {temp}</Text>
